@@ -6,6 +6,11 @@
   color: #f1f1f1;
   text-transform: uppercase;
   letter-spacing: 2px;
+  transition: all 0.4s ease-in-out;
+}
+.title:hover {
+  color: #ffe174;
+  text-decoration: none;
 }
 .newsletter-error::before {
   bottom: -1rem;
