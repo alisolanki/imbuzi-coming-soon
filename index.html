@@ -60,13 +60,14 @@
 					Subscribe to get exclusive drops!
 				</p>
 				<!-- https://forms.gle/cRWjiTP598iD4FAm7 -->
-				<form class="contact100-form validate-form m-t-10 m-b-10" action="https://forms.gle/cRWjiTP598iD4FAm7">
-					<div class="wrap-input100 validate-input m-lr-auto-lg"
-						data-validate="Email is required: imbuzifits@gmail.com">
-						<input class="s2-txt1 placeholder0 input100 trans-04" type="text" name="Email"
+				<form id="newsletter-form" class="contact100-form validate-form m-t-10 m-b-10">
+					<div class="wrap-input100  newsletter-error validate-input m-lr-auto-lg"
+						data-validate="Email is required">
+						<input class="s2-txt1 placeholder0 input100 trans-04" type="email" name="Email"
 							placeholder="Email Address">
 
 						<button class="flex-c-m ab-t-r size2 hov1 respon5">
+							<i class="fa fa-spinner fa-spin loading"></i>
 							<i class="zmdi zmdi-long-arrow-right fs-30 cl1 trans-04"></i>
 						</button>
 
