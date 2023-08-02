@@ -74,3 +74,11 @@
   box-shadow: none;
   transform: translateY(0);
 }
+
+.bordered-btn {
+  border: 2px solid #dba100;
+  border-radius: 15px;
+  color: #dba100;
+  background-color: transparent;
+  margin-top: 20px;
+}
